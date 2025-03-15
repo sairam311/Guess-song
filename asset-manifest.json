@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Guess-song/static/css/main.b2ff2c64.css",
+    "main.js": "/Guess-song/static/js/main.c96936bd.js",
+    "static/js/453.1bce4745.chunk.js": "/Guess-song/static/js/453.1bce4745.chunk.js",
+    "index.html": "/Guess-song/index.html",
+    "main.b2ff2c64.css.map": "/Guess-song/static/css/main.b2ff2c64.css.map",
+    "main.c96936bd.js.map": "/Guess-song/static/js/main.c96936bd.js.map",
+    "453.1bce4745.chunk.js.map": "/Guess-song/static/js/453.1bce4745.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2ff2c64.css",
+    "static/js/main.c96936bd.js"
+  ]
+}
