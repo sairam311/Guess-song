@@ -12,7 +12,7 @@ function App() {
   const generateLyricSnippet = async () => {
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:5000/api/generate-lyrics');
+      const response = await fetch('https://guess-song-backend-tod4.onrender.com/api/generate-lyrics');
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -31,7 +31,7 @@ function App() {
   const handleGuess = async (guess) => {
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:5000/api/check-guess', {
+      const response = await fetch('https://guess-song-backend-tod4.onrender.com/api/check-guess', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
